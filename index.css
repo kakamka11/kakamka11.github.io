@@ -1,0 +1,89 @@
+.flex-class {
+    display: flex;
+}
+
+li {
+    padding: 0;
+    margin: 0 2px 0 2px;
+    list-style-type: none;
+}
+
+.header, .nav-button-panel, .nav{
+    max-width: 700px;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-button-panel{
+    color:white;
+}
+
+.number{
+    margin-left: 20px;
+}
+
+.rus-lang{
+    color: rgb(219, 88, 0);
+    font-size:12px;
+}
+
+.language button{
+    background: none;
+    border: 0;
+}
+
+.right_panel button{
+    margin-right: 10px;
+    border: 0;
+    padding: 5px;
+}
+
+.finder, .login{
+    background: none;
+}
+
+body{
+    background-color:rgba(252, 234, 184, 0.774);
+    font-family: 'Open Sans';
+}
+
+.nav-button{
+    margin: 0px 5px 0px 5px;
+}
+.center-panel {
+    flex-direction: column;
+ align-items:center;
+color: grey; 
+}
+.center-button {
+    background-color: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: red;
+}
+.center-panel1{
+    color: black;
+    font-size: 30px;
+}
+.features-1, .design-1, .volume-1{
+    color:gray;
+    font-size: 12px;
+    padding-right: 100px;
+}
+.center-panel0 {
+    font-size:11px;
+}
+.eng-lang{
+    font-size:12px;
+}
+.nav {
+    background-color: red;
+    border-radius: 20px;
+}
+.favorites, .bucked {
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+}
